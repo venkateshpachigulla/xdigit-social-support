@@ -1,0 +1,20 @@
+export type FormValues = {
+  name: string;
+  nationalId: string;
+  dob: string;
+  gender: string;
+  address: string;
+  city: string;
+  state: string;
+  country: string;
+  phone: string;
+  email: string;
+  maritalStatus: string;
+  dependents: number;
+  employmentStatus: string;
+  monthlyIncome: number;
+  housingStatus: string;
+  situation1: string;
+  situation2: string;
+  situation3: string;
+};
